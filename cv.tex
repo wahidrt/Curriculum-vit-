@@ -1,0 +1,114 @@
+\documentclass[10pt,a4paper,roman]{moderncv}
+
+% --- Réglages de style ---
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+\nopagenumbers{}
+
+% Encodage et Police (Ajout conseillé pour la compatibilité)
+\usepackage[utf8]{inputenc}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[T1]{fontenc}
+\usepackage{mathpazo}
+
+% Marges
+\usepackage[scale=0.93, top=1cm, bottom=1cm, left=1cm, right=1cm]{geometry}
+
+% Largeur de la colonne de dates
+\setlength{\hintscolumnwidth}{2.5cm}
+
+% --- Données personnelles ---
+\name{Wahid}{SAMER}
+\title{Alternance - Finance Quantitative et Data Science}
+%\title{Candidature Master MAIF}
+\address{95800 Cergy, France}{}{}
+\mobile{07 53 10 95 74}
+\email{samer.ahmed.wahid@gmail.com}
+
+\social[linkedin]{Wahid SAMER}
+\social[github]{wahidrt}
+\moderncvcolor{purple}
+% --- Début du document ---
+\begin{document}
+\makecvtitle
+
+% Résumé
+\vspace{-3em}
+\begin{center}
+    \parbox{0.95\textwidth}{
+    \centering \small \itshape
+    Profil hybride alliant modélisation stochastique et implémentation informatique (\textbf{Python, C, VBA, SQL}). \\
+Disponible début septembre 2026 pour 1 an
+    }
+\end{center}
+\vspace{0.8em}
+
+% --- FORMATION ---
+\section{Formation}
+\cventry{2025 -- 2027}{Master Mathématiques Appliquées à l'Ingénierie Financière}{CY Tech}{Cergy}{En cours}{
+    \begin{itemize}
+        \item \textbf{Finance Quantitative :} Calcul Stochastique, Méthodes Numériques Avancées, Finance de Marché, Statistiques Avancées.
+        \item \textbf{Partenariat ESSEC :} Cours De Finance.
+    \end{itemize}
+}
+\cventry{2021 -- 2025}{Licence Mathématiques et Applications}{Université d'Évry Paris-Saclay}{Évry}{}{
+    Focus : Probabilités, Espaces fonctionnels, Topologie, Théorie de la Mesure, Statistiques.
+}
+\cventry{2018 -- 2021}{Baccalauréat Professionnel Aéronautique}{Lycée Pierre Mendès France}{Vitrolles}{Mention Bien}{
+    Parcours d'excellence : transition réussie vers les mathématiques universitaires.
+}
+
+% --- PROJETS ACADÉMIQUES ---
+\section{Projets Académiques}
+
+\cventry{2026}{Python \LaTeX}{Mémoire}{Projet M1 - Semestre 2}{}{\textit{Comment une équation aux dérivées partielles permet-elle de déterminer le prix d’une option financière ?}
+    %\begin{itemize}
+        %\item Étude de l’équation de Black-Scholes appliquée au pricing d’options européennes.
+        %\item Analyse du lien entre absence d’arbitrage, portefeuille de couverture et équation aux dérivées partielles.
+        %\item Interprétation financière de la solution de l’EDP comme prix théorique de l’option.
+    %%\end{itemize}
+}
+
+\cventry{2026}{Python / Machine Learning}{Robot de trading adaptatif et détection de régimes de marché}{Projet de Master en équipe de 4}{Projet M1 - Semestre 2}{
+    \begin{itemize}
+        \item Conception d'un système de trading automatique multi-actifs visant à détecter les déséquilibres temporaires et à adapter la stratégie aux changements de régime de marché.
+        \item \textbf{Modélisation :} cointégration de Johansen, modèle VECM, estimation dynamique du spread par filtre de Kalman et processus d'Ornstein--Uhlenbeck.
+        \item \textbf{Intelligence artificielle et risque :} étude de modèles HMM et de réseaux probabilistes pour estimer les régimes et la probabilité de retour à la moyenne ; allocation des positions sous contrainte de CVaR.
+    \end{itemize}
+}
+
+\cventry{2025}{Excel / VBA}{Pricer d'Options Vanilles \& Grecs}{Projet M1 - Semestre 1}{}{
+    Développement d'un outil de pricing pour options Européennes (Call/Put).
+    \begin{itemize}
+        \item \textbf{Calculs :} Formule fermée de Black-Scholes. Calcul des Grecs ($\Delta, \Gamma, \Theta, \nu, \rho$).
+        \item \textbf{Simulation :} Scénarios de stress sur la volatilité implicite et impact sur le prix de l'option.
+    \end{itemize}
+}
+
+\cventry{2024}{Langage C / SDL2}{Moteur de jeu Tetris}{Projet Licence 3}{}{
+    Programmation bas niveau : Gestion manuelle de la mémoire et logique temps réel.
+}
+
+% --- COMPÉTENCES TECHNIQUES ---
+\section{Compétences Techniques}
+%\cvitem{Mathématiques}{Calcul Stochastique (Brownien, Itô), Black-Scholes, Arbres Binomiaux/Trinomiaux, EDP.}
+\cvitem{Programmation}{Python (Pandas, Scikit-learn, Matplotlib), C, VBA, Julia, SQL.}
+\cvitem{Outils}{Git/GitHub, Excel et PowerPoint (Macros avancées), \LaTeX, Power BI.}
+\cvitem{Langues}{Anglais : B2 (Technique/Professionnel). Français : Bilingue. Arabe : Langue maternelle.}
+
+% --- EXPÉRIENCE PROFESSIONNELLE ---
+\section{Expérience Professionnelle}
+\cventry{Mai à juin 2025}{Professeur de Mathématiques (Stagiaire)}{Lycée Pierre Mendès France}{Vitrolles}{}{
+    Pédagogie et transmission de concepts mathématiques (Niveau Terminale).
+}
+\cventry{Nov à Déc 2019}{Technicien Aéronautique (Stagiaire)}{G1 Aviation}{Gap}{}{
+    Respect strict des procédures de sécurité et rigueur industrielle (Assemblage/Maintenance).
+}
+
+% --- INTÉRÊTS ---
+\section{Centres d'Intérêt}
+\cvitem{Finance}{Gestion active d'un portefeuille personnel (Actions/ETF). Suivi de l'actualité macroéconomique.}
+\cvitem{Loisirs}{Échecs (Compétition/Stratégie), Philosophie (Rationalisme).}
+\cvitem{Associatif}{Bénévole aux \textbf{Restaurants du Cœur} (2 ans) : Solidarité et travail d'équipe.}
+
+\end{document}
