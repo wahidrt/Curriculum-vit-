@@ -10,6 +10,7 @@ CV LaTeX ciblés pour une recherche d'alternance en M2 Mathématiques Appliquée
 - `Risk/CV_Risk.tex` - Market Risk / Quant Risk / Model Risk
 - `Data_Science/CV_Data_Science_Finance.tex` - Data Science / Machine Learning Finance
 - `Financial_Engineering/CV_Financial_Engineering.tex` - Financial Engineering / Pricing
+- `Actuariat/CV_Actuariat.tex` - Actuariat / Data & Modélisation des risques
 
 Le fichier `cv.tex` d'origine est conservé.
 
